@@ -102,7 +102,6 @@ class _HomeState extends State<Home> {
                   decoration: InputDecoration(
                       labelText: "Altura (cm)",
                       labelStyle: TextStyle(color: Colors.blueGrey)),
-                  //textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.blueGrey, fontSize: 20.0),
                   controller: heightController,
                   validator: (value) {
